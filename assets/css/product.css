@@ -100,13 +100,13 @@ body
 }
 .container2>.rows>.col-md-12
 {
-    height: 2000px;/*長度不夠調這裡*/
+    height: 2800px;/*長度不夠調這裡*/
     background-color: rgba(72, 73, 63, 0.377);
     margin-top: 160px;
     margin-bottom: 10px;
     border-radius: 20px;
 }
-.pic a img
+.pic a img/*這裡是房子圖片*/
 {
     margin-left: 50px;
     margin-top: 20px;
@@ -114,7 +114,7 @@ body
     width: 250px;
     height: 250px;
 }
-.pic  img
+.pic  img/*這裡是字旁邊的小圖片*/
 {
     width: 20px;
     height: 20px;
@@ -122,7 +122,7 @@ body
     margin-right: 10px;
     
 }
-.pic 
+.pic /*這裡是字旁邊的小圖片包起來的那串文字*/
 {
     font-size: 18px;
     font-family: "微軟正黑體";
@@ -132,7 +132,7 @@ body
     height: 300px;
    
 }
-.pic>.word
+.pic>.word /*房子圖片旁邊的文字*/
 {
     font-size: 20px;
     font-family: "微軟正黑體";
@@ -149,31 +149,7 @@ body
     width: 20px;
     margin-left: 1600px;
 }
-.container2>.rows>.col-md-12 button
-{
-  margin-left: 1800px;
-  border-style: 1px;
-  border-width: 6px;
-  font-family: "微軟正黑體";
-  font-weight: bold;
-}
-.container2>.rows>.col-md-12 p
-{
-    font-size: 24px;
-    font-family: "微軟正黑體";
-    font-weight: bold;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.container2>.rows>.col-md-12 input
-{
-    margin-left: 20px;
-    border-style: 1px;
-    border-width: 6px;
-    font-family: "微軟正黑體";
-    margin-top: 30px;
-    font-weight: bold;
-}
+
 footer
 {
     width: 100%;
@@ -196,43 +172,4 @@ footer
     
     
 }
-.col-md-4
-{
-  float: center;
-  margin-top: 30px;
-  border-radius: 20px;
-  height: 750px;
-}
-.map img
-{
-   width: 100%;
-   border-radius: 20px;
-   margin-top: 60%;
-}
 
-.flip
-{
-    margin:10px;
-    padding:5px 5px 5px 2px;
-    text-align:center;
-    background:#585c4e50;
-    cursor:pointer;
-    font-family:'Arial';
-    width: 120px;
-    margin-left: 5px;
-    height: 60px;
-    border-radius: 20px;
-
-}
-.plan-1
-{
-    margin:0px;
-    padding:5px;
-    text-align:center;
-    background:#e5eecc;
-    border:solid 3px ;
-    background-color: rgba(72, 73, 63, 0.377);
-    display:none;
-    font-family:'Arial';
-    border-radius: 20px;
-}
