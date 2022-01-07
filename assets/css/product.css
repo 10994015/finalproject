@@ -1,4 +1,4 @@
-body{
+ody{
     size: 100%;
 }
 /*ani.header*/
@@ -66,138 +66,16 @@ body{
   border-bottom: 1px solid #fff;
   transition: .3s;
 }
-
-.main-header .main-nav a:hover:after{
-  left: 0;
-  right: 0;
-}
-
 body
 {
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*logo.ani*/
 
-/*perlogo*/
-
-.train{
-    background-color: rgba(70, 131, 180, 0);
-    width: 50px;
-    height: 50px;
-    color: lavender;
-    font-size: 0px;
-    z-index: 1000;
-/*per-position*/
-    margin-top: -700px;
-    margin-left:80%;
-/*per-position*/    
-}
-.train:hover .Box{
-    display: block;
-    background-color: slategray;
-    width: 200px;
-    height: 400px;
-    color: goldenrod;
-    border-radius: 10px;
-}
-
-
-.park{
-    background-color: rgba(70, 131, 180, 0);
-    width: 50px;
-    height: 50px;
-    color: lavender;
-    font-size: 0px;
-    z-index: 1000;
-/*per-position*/
-    margin-top: 400px;
-    margin-left: 80%;
-/*per-position*/        
-    }
-.park:hover .Box{
-    display: block;
-    background-color: slategray;
-    width: 200px;
-    height: 400px;
-    color: goldenrod;
-    border-radius: 10px;
-}
-
-
-.somewhere{
-    background-color: rgba(70, 131, 180, 0);
-    width: 50px;
-    height: 50px;
-    color: lavender;
-    font-size: 0px;
-    z-index: 1000;
-/*per-position*/
-    margin-top: -600px;
-    margin-left: 80%;
-/*per-position*/
-    }
-.somewhere:hover .Box{
-    display: block;
-    background-color: slategray;
-    width: 200px;
-    height: 400px;
-    color: goldenrod;
-    border-radius: 10px;
-}
-
-/*perlogo*/
-
-.Box{
-    position: absolute;
-    display: none;
-  }
-.Box>button{
-    width: 120px;
-    height: 120px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .Box>button>a{
-      display: block;
-      color: #fff;
-      width: 120px;
-      height: 120px;
-      padding: 10px 10px;
-      text-align: center;
-  }
-  .Box>button>a>i{
-        margin-bottom: 8px;
-      }
-  .Box>button>a>p{
-        margin-bottom: 5px;
-      }
-
-   .Box:hover,.box:focus{
-      display: block;
-      background-color: slategray;
-      width: 200px;
-      height: 400px;
-      color: goldenrod;
-    }
- .turn{
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
-  }
-  .turn:hover{
-          transform: rotate(360deg);
-          transition: all .2s ease;
-    }
-
-  
-
-/*col*/
-.col-md-12
-{
-    height: 550px;
-    background-color: rgba(150, 150, 146, 0.363);
-    margin-top:160px;
-    border-radius: 30px;
+.main-header .main-nav a:hover:after{
+  left: 0;
+  right: 0;
 }
 .col-md-12 label
 {
@@ -222,33 +100,27 @@ body
 }
 .container2>.rows>.col-md-12
 {
-    height: 750px;
+    height: 2000px;/*長度不夠調這裡*/
     background-color: rgba(72, 73, 63, 0.377);
-    margin-top: 30px;
+    margin-top: 160px;
     margin-bottom: 10px;
     border-radius: 20px;
 }
 .pic a img
 {
-    margin-left: 180px;
-    margin-top: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
     position: relative;
     width: 250px;
     height: 250px;
-}
-.pic2 img
-{
-    margin-left: 180px;
-    margin-top: 40px;
-    position: relative;
 }
 .pic  img
 {
     width: 20px;
     height: 20px;
-    margin-left: 40px;
-    margin-right: 50px;
-    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 .pic 
 {
@@ -257,27 +129,18 @@ body
     font-weight: bold;
     color: black;
     margin-left: 5px;
+    height: 300px;
+   
 }
-.pic2 a img
+.pic>.word
 {
-    width: 20px;
-    height: 20px;
-    margin-left: 40px;
-    margin-right: 50px;
-    margin-top: -10px;
-}
-.pic2 a
-{
-    font-size: 18px;
+    font-size: 20px;
     font-family: "微軟正黑體";
     font-weight: bold;
     color: black;
-    margin-left: 5px;
+    margin-left: 330px;
+    margin-top: -100px;
    
-}
-.pic2 p
-{
-    font-size: 14px;
 }
 .box{
     display: flex;
@@ -331,6 +194,7 @@ footer
     margin-top: 30px;
     border-radius: 20px;
     
+    
 }
 .col-md-4
 {
@@ -343,7 +207,7 @@ footer
 {
    width: 100%;
    border-radius: 20px;
-   margin-top: 5%;
+   margin-top: 60%;
 }
 
 .flip
