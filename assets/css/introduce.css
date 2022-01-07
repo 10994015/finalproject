@@ -182,11 +182,11 @@ footer
 
 .content, .content1 
 {
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 13%;
+    
     border-top: 1px solid #000;
     float: right;
-    padding-right: 30px;
+    margin-left: 8%;
 }
 .red
 {
@@ -332,6 +332,7 @@ footer
     width: 90px;
     height: 50px;
     margin-left: -5px;
+    
 }
 .write-comment button :hover
 {

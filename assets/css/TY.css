@@ -225,7 +225,7 @@ body
 }
 .container2>.rows>.col-md-12
 {
-    height: 1800px;/*長度不夠調這裡*/
+    height: 1300px;/*長度不夠調這裡*/
     background-color: rgba(72, 73, 63, 0.377);
     margin-top: 160px;
     margin-bottom: 10px;
