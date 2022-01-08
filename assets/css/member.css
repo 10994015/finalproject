@@ -14,7 +14,6 @@ body{
   width: 100%;
   
 }
-
 .main-header .container{
   display: flex;
   flex-direction: column;
@@ -95,33 +94,6 @@ footer
     flex-direction: column;
     margin-top: 90px;
 }
-.col-md-8
-{
-    height: 500px;
-    background-color: burlywood;
-    border-radius: 5%;
-    margin-top: 300px;
-    margin-left: -14%;
-    
-}
-.col-md-8 p
-{
-    font-size: 24px;
-    font-family: "微軟正黑體";
-    font-weight: bold;
-    padding-left: 5%;
-    padding-top: 10%;
-}
-.col-md-8  img
-{
-  margin-top: -5%;
-  margin-left: 40%;
-}
-.col-md-8>a>img
-{
-    margin-left: 25px;
-    margin-top: -25%;
-}
 .col-md-6
 {
     height: 550px;
@@ -129,10 +101,8 @@ footer
     border-radius: 5%;
     margin: 300px 0 0 0;
     width: 650px;
-}
-.haha{
-    display: flex;
-    justify-content: space-around;
+    margin-left: 10%;
+    
 }
 .col-md-6>.c img,
 .col-md-6>.l img,
