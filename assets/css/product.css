@@ -3,6 +3,10 @@ ody{
 }
 /*ani.header*/
 /*ani.header*/
+.col-md-11
+{
+  margin-left: -0.8%;
+}
 .main-header{
   background: linear-gradient(0deg,#888,rgb(223, 204, 204));
   position: fixed;

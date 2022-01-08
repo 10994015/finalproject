@@ -5,7 +5,10 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.col-md-11
+{
+  margin-left: -0.8%;
+}
 /*ani.header*/
 /*ani.header*/
 .main-header{

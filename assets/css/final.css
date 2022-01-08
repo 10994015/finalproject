@@ -4,6 +4,10 @@ body{
 }
 /*ani.header*/
 /*ani.header*/
+.col-md-11
+{
+  margin-left: -0.8%;
+}
 .main-header{
   background: linear-gradient(0deg,#888,rgb(223, 204, 204));
   position: fixed;
@@ -52,7 +56,7 @@ body{
 }
 .main-header .main-nav a:nth-child(5)
 {
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 
